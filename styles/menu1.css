@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(40,40,40);
+}
+
+.parent-div{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+}
+
+.menu-button{
+  color: white;
+  font-size: 25px;
+  font-family: Arial;
+  background-color: rgb(33, 33, 33);
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 15px 30px 15px 30px;
+  transition: color 0.15s, backgroud-color 0.15s;
+  cursor: pointer;
+}
+
+.menu-button:active{
+  color: rgb(40,40,40);
+  background-color: white;
+}
+
+.drinks-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
