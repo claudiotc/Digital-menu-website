@@ -5,6 +5,7 @@ body{
 .parent-div{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 80px;
 }
 
 .food-div{
@@ -45,7 +46,7 @@ body{
   background-color: rgb(33, 33, 33);
   border: 2px solid white;
   border-radius: 2px;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 30px 30px 30px;
   transition: color 0.15s, backgroud-color 0.15s;
   cursor: pointer;
 }
