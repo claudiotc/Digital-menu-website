@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(40,40,40);
+}
+
+.parent-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.food-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 400px;
+  height: 400px;
+}
+
+.menu-button{
+  color: white;
+  height: 70px;
+  width: 420px;
+  font-size: 40px;
+  font-family: Arial;
+  background-color: rgb(33, 33, 33);
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 15px 30px 60px 30px;
+  transition: color 0.15s, backgroud-color 0.15s;
+  cursor: pointer;
+}
+
+/*
+.menu-button{
+  color: white;
+  height: 70px;
+  width: 350px;
+  font-size: 25px;
+  font-family: Arial;
+  background-color: rgb(33, 33, 33);
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 15px 30px 15px 30px;
+  transition: color 0.15s, backgroud-color 0.15s;
+  cursor: pointer;
+}
+*/
+
+.menu-button:active{
+  color: rgb(40,40,40);
+  background-color: white;
+}
+
+.drinks-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
