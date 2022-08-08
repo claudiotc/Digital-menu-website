@@ -15,10 +15,11 @@ body{
 }
 
 .logo{
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 
+/*
 .menu-button{
   color: white;
   height: 70px;
@@ -32,12 +33,13 @@ body{
   transition: color 0.15s, backgroud-color 0.15s;
   cursor: pointer;
 }
+*/
 
-/*
+
 .menu-button{
   color: white;
-  height: 70px;
-  width: 350px;
+  height: 60px;
+  width: 290px;
   font-size: 25px;
   font-family: Arial;
   background-color: rgb(33, 33, 33);
@@ -47,7 +49,7 @@ body{
   transition: color 0.15s, backgroud-color 0.15s;
   cursor: pointer;
 }
-*/
+
 
 .menu-button:active{
   color: rgb(40,40,40);
