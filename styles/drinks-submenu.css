@@ -8,6 +8,12 @@ body{
   row-gap: 80px;
 }
 
+.parent-div-wine{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+}
+
 .food-div{
   display: flex;
   flex-direction: column;
