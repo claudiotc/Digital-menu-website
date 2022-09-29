@@ -1,7 +1,14 @@
 body{
   height: 400px;
+  width: 400px;
 }
 
 .image-button-div{
-  margin-left: 0px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.j-image{
+  margin-left: 0;
+  margin-top: 0;
 }
